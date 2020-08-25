@@ -220,7 +220,7 @@ break() ->
 
 -spec break(binary()) -> doc().
 break(String) when is_binary(String) ->
-    #doc_break{break = String, flex_or_strict = strict}.
+    #doc_break{break = String, flex_or_strict = flex}.
 
 %   Considers the next break as fit.
 
